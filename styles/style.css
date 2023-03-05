@@ -1,8 +1,127 @@
-/*
-Colors:
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* section nav-bar */
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
 
-*/
+#nav-bar img {
+  height: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+
+/* section bg-img */
+#bg-img {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#bg-img h1 {
+  font-size: 4.5rem;
+  margin: 3%;
+}
+
+#bg-img p {
+  font-size: 1.5rem;
+}
+
+.withe-txt {
+  color: white;
+}
+
+/* section details box */
+
+#details-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.card-details {
+  margin: 1rem;
+  text-align: center;
+  width: 25%
+}
+
+#details-box img {
+  height: 3rem;
+}
+
+#details-box h3{
+  color: #00B172;
+  margin: 0.5rem;
+}
+
+
+/* sections other details */
+#other-details {
+  background-color: #00B172;
+  background-image: url('../images/spotify-icon-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 5rem;
+  height: 100vhrem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: 2rem;
+}
+
+.screen-img img {
+  height: 20rem;
+  margin: 2rem;
+}
+
+.text div{
+  margin: 1rem 0;
+}
+
+.text p {
+  width: 60%
+}
+
+.title {
+  margin: 1rem 2rem;
+  text-decoration: underline;
+}
